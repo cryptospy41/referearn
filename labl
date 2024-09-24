@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkbox Example</title>
+</head>
+<body>
+    <form>
+        <label for="subscribe">
+            <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+            Subscribe to newsletter
+        </label><br>
+        
+        <label for="terms">
+            <input type="checkbox" id="terms" name="terms" value="agree">
+            I agree to the terms and conditions
+        </label><br>
+        
+        <label for="updates">
+            <input type="checkbox" id="updates" name="updates" value="updates">
+            Receive updates
+        </label><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
